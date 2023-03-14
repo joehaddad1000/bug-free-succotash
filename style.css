@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    /* This will center the div horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border: solid 2px;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px;
+    transition: .8s;
+}
+
+input:focus {
+    color: green;
+}
+
+#pswLABEL {
+    margin-block-start: 25px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-block-start: 40px;
+    border: none;
+    /* This will remove the default border */
+    background-color: #4CAF50;
+    /* This will set the background color to green */
+    color: white;
+    /* This will set the text color to white */
+    font-size: 16px;
+    /* This will set the font size to 16 pixels */
+    cursor: pointer;
+    /* This will change the cursor to a hand when hovering over the button */
+    border-radius: 10px;
+    /* This will round the corners of the button by 10 pixels */
+}
